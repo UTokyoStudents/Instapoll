@@ -1,2 +1,8 @@
 # 旧システムにおける投票券の配布
 
+## 用意するもの
+
+- 投票券の PDF ファイルが入った出力用のディレクトリ：`tickets/unused/XXX.pdf` (XXX は通し番号)
+- 配布済みの PDF ファイルが入ったディレクトリ：`tickets/distributed/XXX.pdf`
+
+
