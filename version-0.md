@@ -24,7 +24,9 @@
 
 このシステムは，不正を困難にするため，公開鍵暗号 (public key cryptography) に基づいて行なわれる．従って通常の鍵は公開鍵 (public key) と秘密鍵 (private key) の対によりなる．
 
+- UUID: ユニークで，予測困難な文字列．ここでは UUID version 4 (random) を用いる．
 - Manager key: 選管の（公開）鍵．
 - Voter's certificate: 有権者の証明書．選管鍵で署名せられてる．
 - Voter key: 上記に対応する鍵．
 - Voter's secret UUID: voter (private) key を暗号化しているトークン．
+- Voter's public UUID: 有権者を一意に特定する秘密でないトークン．
