@@ -8,6 +8,6 @@
 
 ## 各部
 
-- https://.../class-ditrib/?class=<class name>-<random token> というリンクを各自治委員にメールする．
+- `https://.../class-ditrib/?class=<class name>-<random token>` というリンクを各自治委員にメールする．
 
 これにアクセスすると，人数分のメールアドレス入力欄が現れる．
