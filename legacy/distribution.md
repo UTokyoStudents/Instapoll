@@ -2,7 +2,7 @@
 
 ## 用意するもの/しくみ
 
-- 投票券の PDF ファイルが入った出力用のディレクトリ：`tickets/unused/XXX.pdf` (XXX は通し番号)
+- 投票券の PDF ファイルが入った出力用のディレクトリ：`tickets/unused/XXX.pdf` (XXX は通し番号) (ひとつにつき1名用の投票券)
 - 配布済みの PDF ファイルが入ったディレクトリ：`tickets/distributed/XXX.pdf`
 - 発行作業をするときには排他ロックを使用し，操作の衝突を避けることが望ましい．
 
