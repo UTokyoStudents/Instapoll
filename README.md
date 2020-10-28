@@ -1,4 +1,6 @@
 # Instapoll（とうのふだ；疾簡）
+![Language: ja](https://img.shields.io/badge/lang-ja-blue)
+
 誰の目にも分かる検証可能透明性を担保した再使用可能な投票システムの検討
 
 ## 考え方
