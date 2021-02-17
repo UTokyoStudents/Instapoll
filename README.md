@@ -4,6 +4,7 @@
 誰の目にも分かる検証可能透明性を担保した再使用可能な投票システムの検討
 
 - [Version 0](version-0.md)
+- [Version 1](version-1.md)
 
 ## 名称
 Insta- + poll （投票）
