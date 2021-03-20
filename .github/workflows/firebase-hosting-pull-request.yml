@@ -13,6 +13,6 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_UT_VOTE }}'
           projectId: ut-vote
+          entryPoint: firebase
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
-          FIREBASE_PROJECT_PATH: firebase
