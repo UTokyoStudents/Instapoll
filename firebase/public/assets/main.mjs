@@ -1,4 +1,7 @@
 
+import * as ed from '/assets/noble-ed25519-1.0.3.mjs';
+import * as base64 from '/assets/base64.mjs';
+
 const CANONICAL_DOMAIN = 'ut-vote.web.app';
 
 if (location.hostname != CANONICAL_DOMAIN) {
@@ -7,3 +10,5 @@ if (location.hostname != CANONICAL_DOMAIN) {
 }
 
 console.log('loaded');
+
+
