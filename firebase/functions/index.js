@@ -89,14 +89,14 @@ exports.vote = functions.https.onRequest(async (req, res) => {
 
 exports.count = functions.https.onRequest(async (req, res) => {
     try {
-        const voteId = String(req.query.voteId || '');
+        const voteId = String(req.query.voteId || '').toLowerCase();
         if (!validateUuid(voteId)) {
             throw new TypeError('Invalid UUID');
         }
         const ticketsSnapshot = await ticketsCollection.where('vote_id', '==', voteId).get();
         const results = Object.create(null);
         const votesCount = 0;
-        for (const ticket of ticketsSnapshot) {
+        for (const ticket of ticketsSnapshot.docs) {
             if (!ticket.voted) {
                 continue;
             }
