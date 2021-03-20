@@ -1,0 +1,23 @@
+@namespace 'http://www.w3.org/1999/xhtml';
+
+body, input, textarea, button, select {
+    font: inherit;
+    border-radius: 0;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+:root {
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 100%;
+    display: grid;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: grid;
+    margin: 0;
+}
