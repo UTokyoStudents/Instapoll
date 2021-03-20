@@ -18,6 +18,10 @@
       {
         "source": "/api/vote",
         "function": "vote"
+      },
+      {
+        "source": "/api/count",
+        "function": "count"
       }
     ]
   },
