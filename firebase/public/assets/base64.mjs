@@ -1,11 +1,13 @@
 
+import {toUint8Array} from 'buffer.mjs';
+
 /**
  * Encode bytes into a base64 string.
  * @param bytes {Uint8Array}
  * @returns {string} Base64 string.
  */
 export const encode = bytes => btoa(Array.prototype.map.call(
-    bytes,
+    toUint8Array(bytes),
     byte => String.fromCharCode(byte)
 ).join(''));
 
