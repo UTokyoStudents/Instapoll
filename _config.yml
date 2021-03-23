@@ -1,1 +1,1 @@
-exclude: ["./firebase", "node_modules"]
+exclude: ["firebase", "node_modules"]
